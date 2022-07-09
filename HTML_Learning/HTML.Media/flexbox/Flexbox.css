@@ -1,0 +1,37 @@
+.common{
+    width: 100%;
+    /* height: 50px; */
+    /* margin: 10px; */
+    background: lightseagreen;
+    border: 3px solid red;
+}
+
+.parent{
+    background-color: rgba(200, 150, 100,);
+    height: 700px;
+    width: 100%;
+    display: flex;/* TO CONVERT A CONTAINER IN A FELXBOX CONTAINER */
+    /*flex-wrap: wrap; /*TO AVOID CHILD ELEMENT GETTING SHRINKED IN FLEX CONTAINER */
+    /*flex-wrap: nowrap;*/ /* TO LET THE CHILD ELEMENT SHRINK AND ADJUST IN A ROW*/
+    /* flex-wrap: wrap-reverse */ /*TO WRAP THE CHILD ELEMENT IN A REVERSE ORDER */
+    /*flex-direction: row-reverse;*/ /*TO ALIGN THE CHILD ELEMENT IN A REVERSE ROW ROW */
+    /* flex-direction: column; */ /* TO ALIGN THE CHILD ELEMENT IN A COLUMN*/
+    /* flex-direction: column-reverse; */ /* TO ALIGN THE CHILD ELEMENT IN A REVERSE COLUMN*/
+    /* justify-content: center; */ /* TO ALIGN THE ITEM IN CENTER IN HORIZONTALLY */
+    /* align-items: center; */ /* TO ALIGN THE ITEM IN CENTER VERTICALLY */
+    /* justify-content: flex-end; */ /* TO ALIGN THE TIEMS HORIZONTALLY AT THE END */
+    /* justify-content: flex-start; */ /* TO ALIGN ITEMS HORIZONTALLY AT THE START/LEFT SIDE*/
+    /* align-items: flex-start; */ /* TO ALIGN ITEMS VERTICALLY AT THE START/TOP */
+    /* align-items: flex-end;  */ /* TO ALIGN ITEMS VERTICALLY AT THE END/BOTTOM */
+    /* flex-flow: column wrap; */ /* ELEMENT WITH THE FLEX-DIRECTION AND FLEX-WRAP */
+    background-color: rgba(200, 150, 100,);
+    width: 100%;
+    height: 300px;
+    /* align-content: space-between; */ /*VERTICAL SIZE AVAILABLE WILL BE ALIGN BETWEEN THE ELEMENT*/ 
+    /* align-content: space-around; */ /*VERTICAL SIZE AVAILABLE WILL BE ALIGN AROUND THE ALEMENTS BUT NO EQUALLY*/
+    /* align-content: space-evenly; */ /*VERTICAL SIZE AVAILABLE WILL BE ALIGN AROUND THE ALEMENTS EQUALLY*/
+    /* align-items: flex-end; */ /*HORIZONTALLY SIZE AVAILABLE WILL BE ALIGN AROUND THE ALEMENTS BUT NO EQUALLY*/
+    /* align-items: stretch; */ /*HORIZONTALLY SIZE AVAILABLE WILL BE ALIGN BETWEEN THE ALEMENTS*/
+    /* flex-wrap: wrap; */
+
+}

@@ -1,0 +1,26 @@
+div{
+     border: 5px double pink;
+    width: 150px;
+    height:150px;
+Border Radius 
+border-top-left-radius: 50px;
+border-bottom-left-radius: 0px;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 0px;
+
+
+
+border-radius: 50px
+}
+button{
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-radius: 25px 0px 25px 0px;
+     
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}

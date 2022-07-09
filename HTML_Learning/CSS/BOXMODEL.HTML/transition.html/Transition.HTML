@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* Notes:- transition shorthand for the below properties: */
+        /*transition-property width 8px
+        transition duration:4s
+        transition:width 4s.height 4s,color 2s;*/
+
+        /* div{
+
+            background-color: green;
+            height: 150px;
+            width: 150px;
+            transition: width 3s, height 5s, background-color 5s;
+            transition-delay: 5s; 
+        }
+        div:hover{
+            background-color: red;
+            height: 400px;
+            width: 600px;
+        } */
+        div:hover{
+            width: 500px;
+        }
+div.three{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: rgb(238, 78, 238);
+    transition: width 2s, background-color 3s, transform 4s;
+}
+div.three:hover{
+    width: 300px;
+    background-color: black;
+    transform: rotate(360deg);
+    color: white;
+}
+.one{
+    transition-timing-function: linear;
+}
+.two{
+    transition-timing-function: ease;
+}
+.three{
+    transition-timing-function: ease-in;
+}
+.four{
+    transition-timing-function: ease-in-out;
+}
+.five{
+    transition-timing-function: ease-out;
+}
+        
+    </style>
+</head>
+<body>
+    <div class="one">linear</div>
+    <div class="two">ease</div>
+    <div class="three">ease in</div>
+    <div class="four">ease in out</div>
+    <div class="five">ease out</div>
+    
+</body>
+</html>
